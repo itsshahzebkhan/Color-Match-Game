@@ -66,7 +66,7 @@ def check_code(guess, real_code):
 
 
 def game():
-    print(f"Welcome to mastermind, you have {TRIES} to guess the code...")
+    print(f"Welcome to mastermind, you have {TRIES} tries to guess the code...")
     print("The valid colors are", *COLORS)
 
     code = generate_code()
